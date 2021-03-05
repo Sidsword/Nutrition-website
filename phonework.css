@@ -1,0 +1,103 @@
+/* Navigation */
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+/* Home section */
+#home{
+    height: 370px; 
+    padding: 3px 28px;
+}
+
+#home::before{
+    height: 480px; 
+}
+
+#home p{
+    font-size: 15px;
+}
+
+#home p{
+    font-size: 15px;
+}
+
+#home .center{
+        font-size: 15px;
+}
+
+
+
+/* Services section  */
+#services{
+    flex-direction: column;
+}
+
+#services .box { 
+    
+    padding: 16px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+
+.center {
+    text-align: center;
+    font-size: 1.5rem;
+    /* font-family: 'Architects Daughter', cursive; */
+  }
+
+/* Clients section */
+#clients{
+    flex-wrap: wrap;
+    height: 150%;
+}
+
+#clients img{
+    width: 66px;
+    padding: 6px;
+    height: auto;
+  
+}
+
+#client-section {
+    background: url("bg.jpg")  ;
+}
+
+#main .box img {
+    float: unset;
+    justify-content: center;
+}
+
+#main .box p {
+    font-size: 15px;
+   
+    /* font-family: 'Ubuntu Condensed', sans-serif; */
+}
+
+/* Contact us section */
+#contact-box form{
+    width:95%;
+
+}
+/* Footer */
+
+/* Utility classes */
+.h-primary{
+    font-size:26px;
+}
+.h-secondary{
+    font-size:27px;
+}
+
+.h-para{
+    font-size:24px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
